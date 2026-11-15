@@ -3,7 +3,7 @@
 ![Night Circuit standings with driver portraits, flags and a live leader card](demo.webp)
 
 ```sh
-python barchartrace.py demo.csv race.mov --profiles demo-profiles.csv --title "Night Circuit" --period .8 --fps 24
+python glassybarrace.py demo.csv race.mov --profiles demo-profiles.csv --title "Night Circuit" --period .8 --fps 24
 ```
 
 Top 21 by default. Use `--top` to change it and YYYY-MM-DD or YYYY in the first CSV column to count days in first place. Requires matplotlib and FFmpeg.
